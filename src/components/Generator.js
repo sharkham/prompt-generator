@@ -1,10 +1,15 @@
 import React from 'react';
 
 const Generator = () => {
+
+  const generate = () => {
+    console.log("generate function firing")
+  }
+
   return (
     <div>
       <p>Generator here</p>
-      <button>Generate</button>
+      <button onClick={generate}>Generate</button>
     </div>
   );
 }
