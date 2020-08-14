@@ -1,10 +1,12 @@
 import React from 'react';
+import {words} from '../assets/words';
 
 const Generator = () => {
 
   const generate = () => {
     // const randomElement = array[Math.floor(Math.random() * array.length)];
-    console.log("generate function firing")
+    console.log(words[Math.floor(Math.random() * words.length)])
+    // return words[Math.floor(Math.random() * words.length)];
   }
 
   return (
