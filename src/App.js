@@ -6,10 +6,12 @@ import {
   Route,
   BrowserRouter as Router
 } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
       <Router>
         <Switch>
           <Route exact path="/"><PromptPage/></Route>
