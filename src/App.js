@@ -6,6 +6,7 @@ import {
   Route
 } from 'react-router-dom';
 import NavBar from './components/NavBar';
+import AboutPage from './components/AboutPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/"><WordsPromptPage/></Route>
         <Route exact path="/words"><WordsPromptPage/></Route>
+        <Route exact path="/about"><AboutPage/></Route>
       </Switch>
     </div>
   );
