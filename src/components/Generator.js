@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {words} from '../assets/words';
 
 const Generator = () => {
 
+  // useEffect(() => {
+
+  // })
+
+  const [prompt, setPrompt] = useState("test")
+
+
+
   const generate = () => {
     // const randomElement = array[Math.floor(Math.random() * array.length)];
-    console.log(words[Math.floor(Math.random() * words.length)])
-    // return words[Math.floor(Math.random() * words.length)];
+    // console.log(words[Math.floor(Math.random() * words.length)])
+    let selectedPrompt = words[Math.floor(Math.random() * words.length)];
+    console.log(selectedPrompt)
+    // currently logs two prompts instead of one??
+    return selectedPrompt;
   }
 
   return (
     <div>
-      <p>Prompt here</p>
-      <button onClick={generate}>Generate</button>
+      <p>{prompt}</p>
+      <button onClick={() => setPrompt(prevState => generate())}>Generate</button>
     </div>
   );
 }
