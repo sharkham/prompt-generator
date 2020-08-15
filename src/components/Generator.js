@@ -7,7 +7,7 @@ const Generator = () => {
 
   // })
 
-  const [prompt, setPrompt] = useState("test")
+  const [prompt, setPrompt] = useState("Click to generate a prompt!")
 
 
 
