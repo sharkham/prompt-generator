@@ -4,16 +4,18 @@ import PromptPage from './components/PromptPage'
 import {
   Switch,
   Route,
-  Redirect
+  BrowserRouter as Router
 } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path="/"><PromptPage/></Route>
-        <Route exact path="/words"><PromptPage/></Route>
-      </Switch>
+      <Router>
+        <Switch>
+          <Route exact path="/"><PromptPage/></Route>
+          <Route exact path="/words"><PromptPage/></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
