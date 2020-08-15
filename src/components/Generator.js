@@ -23,7 +23,7 @@ const Generator = () => {
   return (
     <div>
       <p>{prompt}</p>
-      <button onClick={() => setPrompt(prevState => generate())}>Generate</button>
+      <button onClick={() => setPrompt(generate())}>Generate</button>
     </div>
   );
 }
