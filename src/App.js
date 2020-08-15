@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PromptPage from './components/PromptPage'
+import WordsPromptPage from './components/WordsPromptPage'
 import {
   Switch,
   Route
@@ -13,8 +13,8 @@ function App() {
       <NavBar/>
       <h1>Prompt Generator</h1>
       <Switch>
-        <Route exact path="/"><PromptPage/></Route>
-        <Route exact path="/words"><PromptPage/></Route>
+        <Route exact path="/"><WordsPromptPage/></Route>
+        <Route exact path="/words"><WordsPromptPage/></Route>
       </Switch>
     </div>
   );

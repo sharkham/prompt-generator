@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import {words} from '../assets/words';
+// import {words} from '../assets/words';
 
-const Generator = () => {
+const Generator = (props) => {
 
   // useEffect(() => {
 
@@ -14,7 +14,7 @@ const Generator = () => {
   const generate = () => {
     // const randomElement = array[Math.floor(Math.random() * array.length)];
     // console.log(words[Math.floor(Math.random() * words.length)])
-    let selectedPrompt = words[Math.floor(Math.random() * words.length)];
+    let selectedPrompt = props.dataset[Math.floor(Math.random() * props.dataset.length)];
     console.log(selectedPrompt)
     // currently logs two prompts instead of one??
     return selectedPrompt;
