@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-        <Switch>
-          <Route exact path="/"><PromptPage/></Route>
-          <Route exact path="/words"><PromptPage/></Route>
-        </Switch>
+      <h1>Prompt Generator</h1>
+      <Switch>
+        <Route exact path="/"><PromptPage/></Route>
+        <Route exact path="/words"><PromptPage/></Route>
+      </Switch>
     </div>
   );
 }
