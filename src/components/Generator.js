@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 
 const Generator = (props) => {
 
-  const [prompt, setPrompt] = useState("Click to generate a prompt!")
-
-
-
   const generate = () => {
     return props.dataset[Math.floor(Math.random() * props.dataset.length)];
   }
+
+  const [prompt, setPrompt] = useState(() => generate())
+
 
   return (
     <div>
