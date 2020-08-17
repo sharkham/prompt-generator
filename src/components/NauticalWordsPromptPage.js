@@ -1,10 +1,11 @@
 import React from 'react';
 import Generator from './Generator';
-// import {morewords} from '../assets/morewords';
+import {nautical} from '../assets/nautical';
 
 const NauticalWordsPromptPage = () => {
   return (
     <div>
+      <Generator dataset={nautical}/>
     </div>
   );
 }
