@@ -52,11 +52,9 @@ h1 {
 .nav-link {
   /* font-size: 1.25em; */
   padding: 10px;
-}
-
-.menu {
-  list-style: none;
-  display: block;
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
 
 button {
