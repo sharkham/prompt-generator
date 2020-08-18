@@ -54,6 +54,11 @@ h1 {
   padding: 10px;
 }
 
+.menu {
+  list-style: none;
+  display: block;
+}
+
 button {
   cursor: pointer;
   border: 2px solid #fff;
