@@ -44,8 +44,14 @@ body {
 
 h1 {
   /* font-family: 'underwood_championregular', serif; */
-  color: #0e335f;
+  /* color: #0e335f; */
+  color: #343537;
   font-size: 3em;
+}
+
+.nav-link {
+  font-size: 2em;
+  padding: 0px 10px 0px 10px;
 }
 
 /* button {
