@@ -38,9 +38,17 @@
 }
 
 body {
-  background-color: #cdf337;
+  /* background-color: #cdf337; */
+  background-color: #65c8dd
 }
 
-/* h1 {
-  font-family: 'myunderwoodregular', serif;
+h1 {
+  /* font-family: 'underwood_championregular', serif; */
+  color: #0e335f;
+  font-size: 3em;
+}
+
+/* button {
+  background-color: #0e335f;
+  color: #ffffff;
 } */
