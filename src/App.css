@@ -50,11 +50,34 @@ h1 {
 }
 
 .nav-link {
-  font-size: 2em;
-  padding: 0px 10px 0px 10px;
+  /* font-size: 1.25em; */
+  padding: 10px;
 }
 
-/* button {
-  background-color: #0e335f;
+button {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #343537;
   color: #ffffff;
-} */
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  color: #343537;
+  background-color: #fff;
+  border: 2px solid #343537;
+}
+
+button:active {
+  outline: none;
+  color: #343537;
+  background-color: #9fa1a4;
+  border-color: #343537;
+}
