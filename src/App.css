@@ -56,6 +56,8 @@ h1 {
   position: relative;
   text-align: center;
   transition: ease-in .3s;
+  text-decoration: none;
+  color: #343537
 }
 
 .nav-link:hover,
