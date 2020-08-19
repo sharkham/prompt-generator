@@ -57,17 +57,20 @@ h1 {
   text-align: center;
   transition: ease-in .3s;
   text-decoration: none;
-  color: #343537
+  color: #343537;
+  outline: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   background: #fff;
+  outline: none;
 }
 
 .nav-link:active {
   background-color: #343537;
   color: #ffffff;
+  outline: none;
 }
 
 button {
