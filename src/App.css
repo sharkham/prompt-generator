@@ -55,6 +55,17 @@ h1 {
   display: inline-block;
   position: relative;
   text-align: center;
+  transition: ease-in .3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background: #fff;
+}
+
+.nav-link:active {
+  background-color: #343537;
+  color: #ffffff;
 }
 
 button {
