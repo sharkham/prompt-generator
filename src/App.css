@@ -103,3 +103,7 @@ button:active {
   background-color: #9fa1a4;
   border-color: #343537;
 }
+
+#prompt {
+  font-family: 'open_sansbold', sans-serif;
+}

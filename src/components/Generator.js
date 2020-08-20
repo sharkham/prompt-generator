@@ -11,7 +11,7 @@ const Generator = (props) => {
 
   return (
     <div>
-      <p>{prompt}</p>
+      <p id="prompt">{prompt}</p>
       <button onClick={() => setPrompt(generate())}>Generate</button>
     </div>
   );
