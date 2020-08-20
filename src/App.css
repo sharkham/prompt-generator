@@ -39,7 +39,8 @@
 
 body {
   /* background-color: #cdf337; */
-  background-color: #65c8dd
+  background-color: #65c8dd;
+  font-family: 'open_sansregular', sans-serif;
 }
 
 h1 {
