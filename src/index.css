@@ -1,7 +1,16 @@
 @font-face {
-  font-family: 'underwood_championregular';
-  src: url('fonts/underwood_champion-webfont.woff2') format('woff2'),
-       url('fonts/underwood_champion-webfont.woff') format('woff');
+  font-family: 'blackout2_am';
+  src: url('fonts/blackout-2am-webfont.woff2') format('woff2'),
+       url('fonts/blackout-2am-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'blackoutmidnight';
+  src: url('fonts/blackout-midnight-webfont.woff2') format('woff2'),
+       url('fonts/blackout-midnight-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
