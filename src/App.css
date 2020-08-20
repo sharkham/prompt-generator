@@ -44,7 +44,7 @@ body {
 
 h1 {
   font-family: 'blackoutmidnight', sans-serif;
-  /* color: #0e335f; */
+  letter-spacing: 1px;
   color: #343537;
   font-size: 3em;
 }
@@ -80,7 +80,7 @@ button {
   background-color: #343537;
   color: #ffffff;
   font-size: 1.25em;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'blackoutmidnight', sans-serif;
   letter-spacing: 1px;
   padding: 5px 20px;
