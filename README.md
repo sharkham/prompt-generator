@@ -2,7 +2,7 @@
 
 Stuck on what to write? Try this simple writing prompt generator!
 
-Prompt Generator is a single page React app where users can generate writing prompts from multiple lists of words (currently a general set of random words or nautical terms).
+Prompt Generator is a single page React app where users can generate writing prompts from multiple lists of words (currently a general set of random words or a set of nautical terms).
 
 Check it out here: https://promptgenerator.netlify.app/
 
