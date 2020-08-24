@@ -12,7 +12,6 @@ h1 {
 }
 
 .nav-link {
-  /* font-size: 1.25em; */
   padding: 10px;
   display: inline-block;
   position: relative;
@@ -42,7 +41,6 @@ button {
   background-color: #343537;
   color: #ffffff;
   font-size: 1.25em;
-  /* font-weight: bold; */
   font-family: 'blackoutmidnight', sans-serif;
   letter-spacing: 1px;
   padding: 5px 20px;
