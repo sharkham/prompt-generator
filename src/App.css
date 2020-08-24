@@ -1,9 +1,5 @@
-.App {
-  text-align: center;
-}
-
 body {
-  /* background-color: #cdf337; */
+  text-align: center;
   background-color: #65c8dd;
   font-family: 'open_sansregular', sans-serif;
 }
