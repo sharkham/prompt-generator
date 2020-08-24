@@ -65,4 +65,9 @@ button:active {
 
 #prompt {
   font-family: 'open_sansbold', sans-serif;
+  padding: 0 10%;
+}
+
+p {
+  padding: 0 10%;
 }
