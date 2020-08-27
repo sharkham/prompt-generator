@@ -24,12 +24,13 @@ h1 {
 
 .nav-link:hover,
 .nav-link:focus {
-  background: #fff;
+  background: #343537;
+  color: #fff;
   outline: none;
 }
 
 .nav-link:active {
-  background-color: #343537;
+  background-color: #9fa1a4;
   color: #ffffff;
   outline: none;
 }
@@ -70,4 +71,8 @@ button:active {
 
 p {
   padding: 0 10%;
+}
+
+nav {
+  background-color: #fff;
 }
