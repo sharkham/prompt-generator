@@ -15,9 +15,9 @@ function App() {
       <NavBar/>
       <h1>Prompt Generator</h1>
       <Switch>
-        <Route exact path="/nauticalwords"><NauticalWordsPromptPage/></Route>
-        <Route exact path="/about"><AboutPage/></Route>
-        <Route path="/"><WordsPromptPage/></Route>
+        <Route exact path="/"><WordsPromptPage/></Route>
+        <Route path="/nauticalwords"><NauticalWordsPromptPage/></Route>
+        <Route path="/about"><AboutPage/></Route>
       </Switch>
     </div>
   );
