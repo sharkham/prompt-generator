@@ -18,7 +18,7 @@ Check it out here: https://promptgenerator.netlify.app/
 
 ## Usage Example
 
-![Screenshot of the app's main page](public/promptgenerator-screenshot.png)
+![Screenshot of the app's main page](public/prompt-generator-screenshot-2.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
